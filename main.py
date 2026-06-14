@@ -11,7 +11,7 @@ from telegram.ext import (
 )
 
 # ==================== SOZLAMALAR ====================
-BOT_TOKEN = "8743657755:AAFswnfX3pAirTo0MBLaUhn1G0MEI0NPLK4"
+BOT_TOKEN = os.getenv("8743657755:AAESjUt1k60d2duCLB2_eAzrlmdSL74N_b8")
 ADMIN_IDS = [6576334405]
 
 FILES_DB = "files_db.json"
